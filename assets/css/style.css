@@ -76,6 +76,10 @@ h6, .h6 {
 	line-height: 28px
 }
 
+.bold{
+    font-weight: bold;
+}
+
 .preloader {
     background-color: var(--theme-secondary-color);
     height: 100%;
@@ -1992,9 +1996,9 @@ Footer Style
 	color: var(--theme-primary-color)
 }
 .footer-classic-dark .footer-nav li {
-    width: 50%;
-    float: left;
-    padding-right: 10px;
+    width: 100%;
+    /*float: left;*/
+    padding-left: 10px;
 }
 .footer-widget .widget-title {
     line-height: 50px;
@@ -2286,4 +2290,40 @@ Responsive CSS
 		max-width: 100%;
 		padding: 0 15px;
 	}
+}
+
+
+/*styles added*/
+.clients .item{
+    -webkit-box-shadow: 0px 0px 15px 0px rgba(72,73,121,0.15);
+    -moz-box-shadow: 0px 0px 15px 0px rgba(72,73,121,0.15);
+    box-shadow: 0px 0px 15px 0px rgba(72,73,121,0.15);
+}
+
+.clients .heading{
+    padding-bottom: 50px;
+}
+
+.how h2{
+    color: #fff;
+}
+
+.how .info p{
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+}
+
+.how .img-gallery{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto;
+}
+
+.how .img-gallery .second{
+    grid-row: span 2;
+}
+
+.how .img-gallery .last{
+    grid-column: 3;
 }
