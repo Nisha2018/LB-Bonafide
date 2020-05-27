@@ -2566,9 +2566,9 @@ Responsive CSS
         padding: 0 !important
     }
 
-    .lg-mx-none {
+    /*.lg-mx-none {
         display: none !important
-    }
+    }*/
 
     .lg-bg-img-none {
         background-image: none !important
@@ -2699,6 +2699,10 @@ Responsive CSS
         max-width: 100%;
         padding: 0 15px;
     }
+
+    .lg-mx-none{
+        display: none !important
+    }
 }
 
 
@@ -2706,6 +2710,11 @@ Responsive CSS
 .about{
     padding-bottom: 150px;
 }
+
+.services span{
+    width: 100%;
+}
+
 .clients .item {
     -webkit-box-shadow: 0px 0px 15px 0px rgba(72, 73, 121, 0.15);
     -moz-box-shadow: 0px 0px 15px 0px rgba(72, 73, 121, 0.15);
@@ -2747,6 +2756,16 @@ Responsive CSS
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: auto auto;
     }
+
+    .choose-us .col1{
+    padding-right: 100px;
+    padding-left: 50px;
+}
+
+.choose-us .col2{
+    padding-left: 100px;
+    padding-right: 50px;
+}
 
     .how .img-gallery .second {
         grid-row: span 2;
